@@ -1,4 +1,4 @@
-
+##This function returns a list of functions that helps to get and set the original input matrix. Also, it has getInverse and setInverse functions to cache the inverse matrix once computed
 makeCacheMatrix <- function(x = matrix()) {
 	inv <- NULL #cached inverse stored here.
         set <- function(y) {
